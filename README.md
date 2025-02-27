@@ -11,16 +11,32 @@ This is a **Shopify Feedback Form** built using **React.js, Polaris UI, Framer M
 
 ## 📂 Folder Structure
 ```
-📁 shopify-feedback-app
-│── 📂 src
-│   ├── 📂 assets         # Contains images and logos
-│   ├── 📂 components     # Reusable components
-│   ├── 📂 pages          # Page components
-│   ├── 📂 api            # API functions
-│   ├── 📜 App.js         # Main application entry
-│   ├── 📜 index.js       # React DOM rendering
-│── 📜 package.json       # Dependencies and scripts
-│── 📜 README.md          # Project documentation
+causalfunnel-shopify-app/
+│── backend/                 # Express.js backend
+│   ├── config/              # Database and environment config
+│   ├── controllers/         # API logic
+│   ├── models/              # Mongoose models
+│   ├── routes/              # API routes
+│   ├── middlewares/         # Authentication & error handling
+│   ├── server.js            # Express server entry
+│   ├── package.json         # Backend dependencies
+│   ├── .env                 # Environment variables
+│── frontend/                # Next.js frontend
+│   ├── components/          # UI components
+│   ├── pages/               # Next.js pages
+│   ├── styles/              # Tailwind CSS configuration
+│   ├── utils/               # Helper functions
+│   ├── package.json         # Frontend dependencies
+│   ├── tailwind.config.js   # Tailwind CSS configuration
+│── shopify/                 # Shopify-specific integrations
+│   ├── auth/                # OAuth authentication
+│   ├── scripts/             # ScriptTag API setup
+│   ├── shopify.config.js    # Shopify App setup
+│── README.md                # Project documentation
+│── .gitignore               # Ignored files
+│── package.json             # Root dependencies (if monorepo)
+│── docker-compose.yml       # Optional: Docker setup
+│── .env                     # Environment variab
 ```
 
 ## 🛠️ Installation
