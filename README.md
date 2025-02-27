@@ -77,9 +77,9 @@ export const submitSurvey = async (userId, answers) => {
 - After submission, a **toast notification** confirms success
 
 ## 📸 Screenshots
-| Form UI  | Success Toast |
+| Form UI  | Dashboard 
 |----------|--------------|
-| ![Form Screenshot](src/assets/form.png) | ![Toast Screenshot](src/assets/toast.png) |
+| ![Form Screenshot](src/assets/form.png) | ![Toast Screenshot](src/assets/dashboard.png) |
 
 ## 🤝 Contributing
 1. Fork the repository
